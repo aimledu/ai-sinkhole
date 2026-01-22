@@ -1,5 +1,5 @@
 # **ai-sinkhole**
-This project introduces a method for the discovery, classification, and blocking of emerging LLM chatbot services during proctored exams. This was made possible with Pi-hole, a DNS sinkhole that blocks unwanted content on your devices without installing any client-side software.
+This project introduces a method for the discovery, classification, and blocking of emerging LLM chatbot services during proctored exams. This was made possible with Pi-hole, a DNS sinkhole that blocks unwanted content on your devices without installing any client-side software. This project was done by running Pi-hole in a Docker container. See the steps for installing Pi-hole in Docker below.
 ## **Installation**
 ### **Quick Start**
 Using [Docker-compose](https://docs.docker.com/compose/install/):
@@ -26,7 +26,7 @@ services:
       #- "123:123/udp"
     environment:
       # Set the appropriate timezone for your location (https://en.wikipedia.org/wiki/List_of_tz_database_time_zones), e.g:
-      TZ: 'Europe/London'
+      TZ: 'America/New_York'
       # Set a password to access the web interface. Not setting one will result in a random password being assigned
       FTLCONF_webserver_api_password: 'correct horse battery staple'
       # If using Docker's default `bridge` network setting the dns listening mode should be set to 'ALL'
@@ -54,8 +54,11 @@ services:
 > Volumes are recommended for persisting data across container re-creations for updating images.
 
 ## **Loading Blocklists**
-Add the list's URL in the **Group Management > Adlists** section of the web interface and then run **pihole -g** in the terminal or click **"Update"** in the **Tools > Update Gravity** section.
+Add the list's URL (https://raw.githubusercontent.com/aimledu/ai-sinkhole/refs/heads/main/blocklist/ai_services.txt) in the **Group Management > Adlists** section of the web interface and then run **pihole -g** in the terminal or click **"Update"** in the **Tools > Update Gravity** section to finish loading the blocklist.
 
 ## **Enabling/Disabling Blocklists**
-Blocklists can be enabled/disabled directly in the Pi-hole web UI by located the blocklist, and toggling the enable/disable option.
-Alternatively, our scripts can be used to enable/disable individual blocklists for specified time ranges.
+Blocklists can be enabled/disabled directly in the Pi-hole web UI by locating the blocklist and toggling the enable/disable option.
+Alternatively, our script can be used to enable/disable individual blocklists for specified time ranges.
+
+### **Enabling/Disabling Blocklists with Script**
+To use our script, run **./EnableOrDisable.sh** on the host machine. You will be prompted to tell the script what to do. If you want to disable the blocklist, enter **0**. If you want to enable the blocklist, enter **1**. You will then be asked to enter the duration. Be sure to specify the time unit (e.g. If you want 15 seconds, enter **15s**. If you want 15 minutes, enter **15m**. If you want 15 hours, enter **15h**.) After your specified duration is over, the blocklist will revert to its original state.
