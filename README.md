@@ -283,7 +283,7 @@ services:
 
 ## **Loading Blocklists**
 
-To load the blocklist you must first add the list's URL in the **Group Management > Adlists** section of the web interface. To do this, enter **https://raw.githubusercontent.com/aimledu/ai-sinkhole/refs/heads/main/blocklist/ai_services.txt** in the \* _Address_ _ field, and enter **ai-sinkhole** in the _ _Comment_ \* field. Adding the proper comment tag is essential for using our enabling/disabling scripts. After the previous steps have been completed, run **pihole -g** in the terminal or click **"Update"** in the **Tools > Update Gravity** section to finish loading the blocklist.
+To load the blocklist you must first add the list's URL in the **Group Management > Adlists** section of the web interface. To do this, enter **https://raw.githubusercontent.com/AIMLEdu/ai-sinkhole/refs/heads/main/blocklist/ai_services.txt** in the \* _Address_ _ field, and enter **ai-sinkhole** in the _ _Comment_ \* field. Adding the proper comment tag is essential for using our enabling/disabling scripts. After the previous steps have been completed, run **pihole -g** in the terminal or click **"Update"** in the **Tools > Update Gravity** section to finish loading the blocklist.
 
 ## **Enabling/Disabling Blocklists**
 
