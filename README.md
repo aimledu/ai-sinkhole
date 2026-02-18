@@ -18,7 +18,7 @@ The corresponding paper is available at:
   title={Fighting AI with AI: AI-Agent Augmented DNS Blocking of LLM Services during Student Evaluations},
   author={Author1, A. and Author2, B. and Author3, C.},
   journal={Journal/Conference Name},
-  year={2026},
+  year={2024},
   doi={xxxxx}
 }
 ```
@@ -26,12 +26,16 @@ The corresponding paper is available at:
 --
 
 ## Overview
-![Logo](artefacts/AI-sinkhole_icon_0.png)
-This repository contains the following:
 
-1. **Scripts to facilitate DNS query exportring for AI based classification**
-2. **Scripts to facilitate enabling/disabling of AI-service blocking on Pi-hole**
-3. **Pipeline scripts for Web Content Collection and LLM-Based website Classification**
+<img src="artefacts/AI-sinkhole_icon_0.png" align="left" width="25%">
+
+### 🗒️ This repository contains the following:
+
+1.  **Scripts to facilitate DNS query exportring for AI based classification**
+2.  **Scripts to facilitate enabling/disabling of AI-service blocking on Pi-hole**
+3.  **Pipeline scripts for Web Content Collection and LLM-Based website Classification**
+
+<br clear="left"/>
 
 ### 1. DNS query exportring for AI based classification
 
@@ -67,7 +71,7 @@ The separation between collection and classification enables offline analysis an
 
 ---
 
-## Core Design Principles
+## Design goals
 
 - **Stable data contracts**  
   The crawler emits a serialized text format that the classifier depends on.
@@ -283,7 +287,7 @@ services:
 
 ## **Loading Blocklists**
 
-To load the blocklist you must first add the list's URL in the **Group Management > Adlists** section of the web interface. To do this, enter **https://raw.githubusercontent.com/AIMLEdu/ai-sinkhole/refs/heads/main/blocklist/ai_services.txt** in the \* _Address_ _ field, and enter **ai-sinkhole** in the _ _Comment_ \* field. Adding the proper comment tag is essential for using our enabling/disabling scripts. After the previous steps have been completed, run **pihole -g** in the terminal or click **"Update"** in the **Tools > Update Gravity** section to finish loading the blocklist.
+To load the blocklist you must first add the list's URL in the **Group Management > Adlists** section of the web interface. To do this, enter **https://raw.githubusercontent.com/aimledu/ai-sinkhole/refs/heads/main/blocklist/ai_services.txt** in the \* _Address_ _ field, and enter **ai-sinkhole** in the _ _Comment_ \* field. Adding the proper comment tag is essential for using our enabling/disabling scripts. After the previous steps have been completed, run **pihole -g** in the terminal or click **"Update"** in the **Tools > Update Gravity** section to finish loading the blocklist.
 
 ## **Enabling/Disabling Blocklists**
 
@@ -328,7 +332,7 @@ To use this script, run the script **disable.sh** on the host machine. This will
   title={Fighting AI with AI: AI-Agent Augmented DNS Blocking of LLM Services during Student Evaluations},
   author={Author1, A. and Author2, B. and Author3, C.},
   journal={Journal/Conference Name},
-  year={2026},
+  year={2024},
   doi={xxxxx}
 }
 ```
