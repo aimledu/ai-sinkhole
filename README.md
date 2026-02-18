@@ -26,7 +26,7 @@ The corresponding paper is available at:
 --
 
 ## Overview
-
+![Logo](artefacts/AI-sinkhole_icon_0.png)
 This repository contains the following:
 
 1. **Scripts to facilitate DNS query exportring for AI based classification**
