@@ -41,6 +41,10 @@ The corresponding paper is available at:
 
 [James discuss DNS query and exporting to csv here.]
 
+A script for exporting DNS query logs is below, procedures are discussed in installation section. The script will export **all** domains successfully queried by clients.
+
+- **export_dns.sh**
+
 ### 2. enabling/disabling of AI-service blocking on Pi-hole
 
 Scripts for enabling/disabling are the following, procedures are discussed in installation section.
