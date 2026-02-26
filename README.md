@@ -312,7 +312,7 @@ To use this script, run the script **disable.sh** on the host machine. This will
 
 ## **Exporting DNS Queries with Scripts**
 
-### **export_dns.sh**
+#### **export_dns.sh**
 
 To use this script, run the script **export_dns.sh** on the host machine. This will export the logs to a CSV file "*pihole_dns_logs.csv*" that will contain **all** domains that were successfully reached by clients.
 
