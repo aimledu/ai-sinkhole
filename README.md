@@ -308,6 +308,12 @@ To use this script, run the script **enable.sh** on the host machine. This will 
 
 To use this script, run the script **disable.sh** on the host machine. This will disable the wordlist indefinitely.
 
+### **Exporting Pihole Database with Scripts**
+
+#### **export_dns.sh**
+
+To use this script, run the script **export_dns.sh** on the host machine. This will export the logs to a CSV file "*pihole_dns_logs.csv*" that will contain **all** domains that were successfully reached by clients.
+
 # Future Extensions (Ideas welcome)
 
 - Classification confidence calibration
