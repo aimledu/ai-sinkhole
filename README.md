@@ -39,8 +39,6 @@ The corresponding paper is available at:
 
 ### 1. DNS query exportring for AI based classification
 
-[James discuss DNS query and exporting to csv here.]
-
 A script for exporting DNS query logs is below, procedures are discussed in installation section. The script will export **all** domains successfully queried by clients.
 
 - **export_dns.sh**
