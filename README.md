@@ -10,15 +10,15 @@ It is an experimental, research-oriented pipeline intended for **research, exper
 
 The corresponding paper is available at:
 
-> Author1, A., Author2, B., & Author3, C. (Year). _Fighting AI with AI: AI-Agent Augmented DNS Blocking of LLM Services during Student Evaluations_. Journal/Conference Name.  
+> Kassa, Y., Bonacci, J., & Wang, P. (2026). _Fighting AI with AI: AI-Agent Augmented DNS Blocking of LLM Services during Student Evaluations_. Journal/Conference Name.  
 > DOI: https://doi.org/xxxxx
 
 ```bibtex
 @article{author2024paper,
   title={Fighting AI with AI: AI-Agent Augmented DNS Blocking of LLM Services during Student Evaluations},
-  author={Author1, A. and Author2, B. and Author3, C.},
+  author={Kassa, Y., Bonacci, J., and Wang, P. (2026)},
   journal={Journal/Conference Name},
-  year={2024},
+  year={2026},
   doi={xxxxx}
 }
 ```
@@ -332,15 +332,15 @@ To use this script, run the script **export_dns.sh** on the host machine. This w
 
 ## 📄 Corresponding Publication
 
-> Author1, A., Author2, B., & Author3, C. (Year). _Fighting AI with AI: AI-Agent Augmented DNS Blocking of LLM Services during Student Evaluations_. Journal/Conference Name.  
+> Kassa, Y., Bonacci, J., & Wang, P. (2026). _Fighting AI with AI: AI-Agent Augmented DNS Blocking of LLM Services during Student Evaluations_. Journal/Conference Name.  
 > DOI: https://doi.org/xxxxx
 
 ```bibtex
 @article{author2024paper,
   title={Fighting AI with AI: AI-Agent Augmented DNS Blocking of LLM Services during Student Evaluations},
-  author={Author1, A. and Author2, B. and Author3, C.},
+  author={Kassa, Y., Bonacci, J., and Wang, P. (2026},
   journal={Journal/Conference Name},
-  year={2024},
+  year={2026},
   doi={xxxxx}
 }
 ```
