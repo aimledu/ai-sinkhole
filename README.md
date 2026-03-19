@@ -6,7 +6,7 @@ It is an experimental, research-oriented pipeline intended for **research, exper
 
 ---
 
-## 📄 Corresponding Publication
+## Corresponding Publication
 
 The corresponding paper is available at:
 
@@ -29,7 +29,7 @@ The corresponding paper is available at:
 
 <img src="artefacts/AI-sinkhole_icon_0.png" align="left" width="25%">
 
-### 🗒️ This repository contains the following:
+### This repository contains the following:
 
 1.  **Scripts to facilitate DNS query exportring for AI based classification**
 2.  **Scripts to facilitate enabling/disabling of AI-service blocking on Pi-hole**
