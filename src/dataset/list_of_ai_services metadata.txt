@@ -1,0 +1,28 @@
+The lsit of AI services is initially collected from sources including the following:
+
+- lists free chatgpt alternatives available at https://github.com/LiLittleCat/awesome-free-chatgpt/blob/main/README_en.md
+	a total of 132 alternatives
+- the following lists are included on top of the above list including ifnormatiomn from https://zapier.com/blog/best-ai-chatbot/
+	
+	https://grok.com/
+	https://www.meta.ai/
+	https://copilot.microsoft.com/
+	https://poe.com/
+	https://gemini.google.com/
+	https://huggingface.co/chat
+	https://claude.ai/
+	https://duck.ai/
+	https://chatgpt.com
+	https://tongyi.aliyun.com/
+	https://www.deepseek.com/
+	https://poe.com
+	https://huggingface.co/chat
+	https://chat.lmsys.org/
+	https://bard.google.com/
+	https://heypi.com/talk
+	https://open-assistant.io/
+	https://talk.truthgpt.one/
+	https://yiyan.baidu.com/
+	https://tongyi.aliyun.com/
+	https://xinghuo.xfyun.cn/
+

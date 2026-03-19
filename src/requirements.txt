@@ -1,0 +1,20 @@
+# Core dependencies
+pydantic>=2.0
+
+# Local LLM inference
+ollama>=0.1.7
+
+# Web crawling
+crawl4ai>=0.3.0
+
+# Async utilities (standard library in most Python versions)
+# asyncio
+
+# Date and time utilities (standard library)
+# datetime
+
+# URL parsing (standard library)
+# urllib
+
+# File system utilities (standard library)
+# pathlib

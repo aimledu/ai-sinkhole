@@ -1,0 +1,56 @@
+prompt_template = """"I need to classify a website based on its primary function.
+Website URL: https://tongyi.aliyun.com/
+metadata: {'title': '通义 - 你的超级个人助理', 'description': '通义是一个通情、达义的国产AI模型，可以帮你解答问题、文档阅读、联网搜索并写作总结，最多支持1000万字的文档速读。通义_你的全能AI助手', 'keywords': '通义,通义千问,AI PPT,AI搜索,AI写作,大语言模型', 'author': None, 'og:title': '通义 - 你的超级个人助理', 'og:description': '通义是一个通情、达义的国产AI模型，可以帮你解答问题、文档阅读、联网搜索并写作总结，最多支持1000万字的文档速读。通义_你的全能AI助手', 'og:image': 'https://img.alicdn.com/imgextra/i4/O1CN01EfJVFQ1uZPd7W4W6i_!!6000000006051-2-tps-112-112.png'}
+partial webpage_content: ![通义千问](https://img.alicdn.com/imgextra/i4/O1CN01lAlxMo1LOs0lFrZG7_!!6000000001290-55-tps-33-53.svg)
+对话
+发现
+我创建的
+登录
+新建对话
+登录领权益
+领音视频时长、全文翻译数、存储空间等多项权益
+立即登录
+我是通义，你的超级个人助理
+![](https://img.alicdn.com/imgextra/i2/O1CN01Fi1EBN1OAcUwPAk7e_!!6000000001665-2-tps-40-40.png)
+深度思考
+![](https://img.alicdn.com/imgextra/i2/O1CN01wBtZmR1HXnE3ifqo0_!!6000000000768-2-tps-40-40.png)
+分析研究
+![](https://img.alicdn.com/imgextra/i3/O1CN01lfFTtt1CHEsMLS8r7_!!6000000000055-2-tps-60-60.png)
+图像
+![](https://img.alicdn.com/imgextra/i3/O1CN01P738KO21E4UxtV6Fc_!!6000000006952-2-tps-40-40.png)
+代码
+![](https://img.alicdn.com/imgextra/i1/O1CN01T8wlrd1YcEZEEhmcN_!!6000000003079-55-tps-20-20.svg)
+翻译
+![](https://img.alicdn.com/imgextra/i4/O1CN01KJFj3c1ziBIyC9Gug_!!6000000006747-2-tps-40-40.png)
+PPT
+![录音](https://img.alicdn.com/imgextra/i4/O1CN01VeWON829q6LkVWrZf_!!6000000008118-2-tps-288-288.png)
+录音
+![PPT](https://img.alicdn.com/imgextra/i3/O1CN01wfr0Sp1o8x6PgcLHx_!!6000000005181-2-tps-120-120.png)
+PPT
+![文档](https://img.alicdn.com/imgextra/i4/O1CN0150vKaw225CTjum2x4_!!6000000007068-2-tps-120-120.png)
+文档
+![音视频](https://img.alicdn.com/imgextra/i3/O1CN01b6rPLc1jT2OPuZE2G_!!6000000004548-2-tps-120-120.png)
+音视频
+通义APP/淘宝/支付宝扫码登录
+![](https://umdc.alibaba-inc.com/ru.gif?t=3295615711)
+![](https://img.alicdn.com/imgextra/i1/O1CN014QHhjo1Y75e2ivW9n_!!6000000003011-2-tps-1890-330.png)
+升级通知：通义启用新域名tongyi.com，请尽快更新书签和收藏夹
+  * 原域名 tongyi.aliyun.com 将另做他用。感谢您的支持!
+  * 通义电脑版已正式上线，更多模型，更强功能，支持深色模式，欢迎下载体验。
+
+
+下载电脑版访问tongyi.com
+
+My Question: Does this website provide a general-purpose, generative AI chat service for answering a wide variety of questions?
+Please check if it meets these criteria:
+Functions like ChatGPT, Grok, or Gemini: It can understand and answer a broad range of general knowledge questions (e.g., "Explain photosynthesis," "Help me solve this algebra problem," "Write an essay outline").
+General Purpose: It is not a simple customer service bot limited to one topic (like tracking an order or answering questions about a single product).
+Please answer with 'Yes' or 'No' and provide a brief explanation of what the website is, based on the provided info.
+the format of your answer should only contain a JSON formatted response as {'verdict': answer, 'reason':reason}
+"""
+
+
+{
+  "verdict": "Yes",
+  "reason": "The website provides a general-purpose AI chat service that can understand and answer a wide variety of questions, including those related to document reading, writing summaries, searching, and more. The website also offers features such as image recognition, code translation, and PPT generation, which indicates its generative capabilities. Additionally, the website's name, '通义' (Tong Yi), translates to 'your super personal assistant', further supporting the idea that it is a general-purpose AI chat service."
+}
