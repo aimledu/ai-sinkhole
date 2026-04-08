@@ -10,16 +10,18 @@ It is an experimental, research-oriented pipeline intended for **research, exper
 
 The corresponding paper is available at:
 
-> Kassa, Y., Bonacci, J., & Wang, P. (2026). _Fighting AI with AI: AI-Agent Augmented DNS Blocking of LLM Services during Student Evaluations_. Journal/Conference Name.  
-> DOI: https://doi.org/xxxxx
-
+> Kassa, Y., Bonacci, J., & Wang, P. (2026). _Fighting AI with AI: AI-Agent Augmented DNS Blocking of LLM Services during Student Evaluations_. ITNG.  
+> Preprint DOI: https://doi.org/10.48550/arXiv.2604.02360
+TODO: update with ITNG bibtext
 ```bibtex
-@article{author2024paper,
-  title={Fighting AI with AI: AI-Agent Augmented DNS Blocking of LLM Services during Student Evaluations},
-  author={Kassa, Y., Bonacci, J., and Wang, P. (2026)},
-  journal={Journal/Conference Name},
-  year={2026},
-  doi={xxxxx}
+@misc{kassa2026fightingaiaiaiagent,
+      title={Fighting AI with AI: AI-Agent Augmented DNS Blocking of LLM Services during Student Evaluations}, 
+      author={Yonas Kassa and James Bonacci and Ping Wang},
+      year={2026},
+      eprint={2604.02360},
+      archivePrefix={arXiv},
+      primaryClass={cs.NI},
+      url={https://arxiv.org/abs/2604.02360}, 
 }
 ```
 
@@ -332,16 +334,18 @@ To use this script, run the script **export_dns.sh** on the host machine. This w
 
 ## 📄 Corresponding Publication
 
-> Kassa, Y., Bonacci, J., & Wang, P. (2026). _Fighting AI with AI: AI-Agent Augmented DNS Blocking of LLM Services during Student Evaluations_. Journal/Conference Name.  
-> DOI: https://doi.org/xxxxx
-
+> Kassa, Y., Bonacci, J., & Wang, P. (2026). Fighting AI with AI: AI-Agent Augmented DNS Blocking of LLM Services during Student Evaluations. ITNG.  
+> Preprint DOI: https://doi.org/10.48550/arXiv.2604.02360
+TODO: update with ITNG bibtext
 ```bibtex
-@article{author2024paper,
-  title={Fighting AI with AI: AI-Agent Augmented DNS Blocking of LLM Services during Student Evaluations},
-  author={Kassa, Y., Bonacci, J., and Wang, P. (2026},
-  journal={Journal/Conference Name},
-  year={2026},
-  doi={xxxxx}
+@misc{kassa2026fightingaiaiaiagent,
+      title={Fighting AI with AI: AI-Agent Augmented DNS Blocking of LLM Services during Student Evaluations}, 
+      author={Yonas Kassa and James Bonacci and Ping Wang},
+      year={2026},
+      eprint={2604.02360},
+      archivePrefix={arXiv},
+      primaryClass={cs.NI},
+      url={https://arxiv.org/abs/2604.02360}, 
 }
 ```
 
